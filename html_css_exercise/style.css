@@ -4,6 +4,14 @@ body {
   background-repeat: no-repeat;
   color: white;
   font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 25% 20% 55%;
+  align-items: center;
+  background-color: rgb(58 58 46 / 0.4);
 }
 
 main {
@@ -27,7 +35,7 @@ footer {
 a {
   color: white;
   text-decoration: none;
-  padding: 20px 5px;
+  padding: 20px;
   border-radius: 3px;
   font-weight: bold;
   font-size: 15px;
@@ -64,13 +72,6 @@ th {
 th:last-child,
 td:last-child {
   border-right: none;
-}
-
-nav {
-  display: grid;
-  grid-template-columns: 25% 25% 50%;
-  align-items: center;
-  background-color: rgb(58 58 46 / 0.4);
 }
 
 .logo {
