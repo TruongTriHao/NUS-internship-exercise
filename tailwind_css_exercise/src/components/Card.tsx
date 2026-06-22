@@ -7,19 +7,26 @@ function Card() {
         src="../../image.jpg"
         className="w-68.5 h-68.5 object-cover rounded-sm"
       ></img>
-      <div className="flex flex-col justify-between m-2">
+      <div className="flex flex-col justify-between m-2 h-64.5 overflow-hidden">
         <div className="flex items-center gap-2">
           <div className="text-white text-xs bg-indigo-800 rounded-full p-2 font-bold">
             HN
           </div>
-          <div className="text-indigo-800 text-xs">Hieu Nguyen</div>
+          <div className="text-indigo-800 text-xs overflow-hidden whitespace-nowrap text-ellipsis">
+            Hieu Nguyen
+          </div>
         </div>
-        <div className="font-bold mt-2 text-xs">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit
-        </div>
-        <div className="mt-2 text-xs">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-          voluptatum, quod, quia, voluptates quibusdam voluptatibus quas
+        <div className="flex flex-col overflow-auto mt-2">
+          <div className="font-bold text-xs">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem
+          </div>
+          <div className="mt-2 text-xs">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+            voluptatum, quod, quia, voluptates quibusdam voluptatibus quas
+            quibusdam voluptatibus quas quibusdam voluptatibus quas quibusdam
+            voluptatibus quas quibusdam voluptatibus quas quibusdam voluptatibus
+            quas quibusdam voluptatibus quas quibusdam voluptatibus quas
+          </div>
         </div>
         <div className="flex justify-between mt-9">
           <div className="flex">
