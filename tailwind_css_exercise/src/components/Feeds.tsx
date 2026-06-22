@@ -1,5 +1,5 @@
 import Card from "./Card";
-import { LoaderCircle } from "lucide-react";
+import { Loader } from "lucide-react";
 import Tabs from "./Tabs";
 
 function Feeds() {
@@ -14,7 +14,7 @@ function Feeds() {
         <Card />
         <Card />
       </div>
-      <LoaderCircle className="animate-spin m-auto" size={72} />
+      <Loader className="m-auto" size={72} color="gray" />
     </div>
   );
 }
