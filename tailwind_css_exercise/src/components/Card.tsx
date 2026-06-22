@@ -7,7 +7,7 @@ function Card() {
         src="../../image.jpg"
         className="w-68.5 h-68.5 object-cover rounded-sm"
       ></img>
-      <div className="m-2">
+      <div className="flex flex-col justify-between m-2">
         <div className="flex items-center gap-2">
           <div className="text-white text-xs bg-indigo-800 rounded-full p-2 font-bold">
             HN
@@ -18,9 +18,8 @@ function Card() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit
         </div>
         <div className="mt-2 text-xs">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni culpa
-          nihil cum omnis, cumque a ex, vitae repellat error non eum praesentium
-          delectus aliquid sequi quibusdam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+          voluptatum, quod, quia, voluptates quibusdam voluptatibus quas
         </div>
         <div className="flex justify-between mt-9">
           <div className="flex">
